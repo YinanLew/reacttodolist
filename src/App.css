@@ -1,0 +1,83 @@
+body {
+    background-image: linear-gradient(45deg, #845EC2 10%, #D65DB1 30%, #FF6F91 50%, #FF9671 70%, #FFC75F 90%, #F9F871 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+
+.listContainer {
+    display: flex;
+    flex-direction: row;
+    /*align-items: center;*/
+    justify-content: center;
+    margin-top: 8%;
+}
+
+.todoWrap {
+    height: 530px;
+    width: 420px;
+    background-color: #f4f7fc;
+    border: 2px solid;
+    border-radius: 10px;
+    box-shadow:8px 8px 5px;
+    text-align: center;
+    overflow: auto;
+}
+
+
+
+
+.btnStyle {
+    margin-left: 5px;
+    width: 35%;
+    height: 37px;
+    border-radius: 5px;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+}
+
+.btnStyle, input[type="text"] {
+    box-shadow: 1px 1px 1px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+}
+
+.button {
+    border: 2px solid #f4f7fc;
+    color: #f59cb1;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 600;
+
+}
+.button:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /*direction: rtl;*/
+    /*z-index: -1;*/
+    box-shadow:
+            7px 7px 20px 0px #f67ea3,
+            4px 4px 5px 0px #ff6f91;
+    transition: all 0.3s ease;
+}
+.button:hover {
+    color: #FF6F91;
+}
+.button:hover:after {
+    left: auto;
+    right: 0;
+    width: 100%;
+}
+.button:active {
+    top: 2px;
+}
+
+

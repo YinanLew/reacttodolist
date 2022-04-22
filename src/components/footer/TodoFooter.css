@@ -1,0 +1,29 @@
+.todoFooter {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 6px;
+    margin-top: 5px;
+    font-family: "Orbitron", Serif;
+}
+
+.todoFooter label {
+    float: left;
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.todoFooter label input {
+    float: left;
+    margin-top: 13px;
+    position: relative;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.todoFooter button {
+    float: right;
+    margin-right: 22px;
+    font-size: 90%;
+    width: 40%;
+}
